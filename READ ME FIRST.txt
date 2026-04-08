@@ -1,0 +1,48 @@
+23:31 13/8/2025
+# Keylogger con Captura de Pantalla, Foto y Audio
+
+## Descripción
+Este programa es un keylogger que también captura screenshots, fotos de la cámara y audio de manera periódica. Los datos capturados se guardan en la carpeta especificada.
+
+## Requisitos
+- Windows 10 o superior
+- Permisos de administrador para ejecutar el programa
+
+## Uso
+1. Conecta el pendrive a la computadora objetivo.
+2. Seleccione la carpeta "programa", entre a "dist", y ejecute el archivo "keylogger.exe".
+3. Cierre "Explorador de archivos"
+4. Para finalizar el programa se solicita apretar la tecla "esc"
+5. Abra "Explorador de archivos" vaya a la carpeta "shh" y tendrá todo lo hecho en el periodo de tiempo que estuvo ejecutado el programa.
+
+## Funcionalidades
+- **Keylogging**: Registra todas las teclas presionadas y las guarda en un archivo de texto.
+- **Captura de Pantalla**: Toma screenshots de la pantalla cada 20 segundos.
+- **Captura de Foto**: Toma fotos con la cámara cada 20 segundos.
+- **Captura de Audio**: Graba audio de 30 segundos cada 5 segundos.
+
+## Archivos Generados
+Todos los archivos generados se guardan en la carpeta `D:\shh` por defecto. Esta carpeta contiene las siguientes subcarpetas:
+- `keylog.txt`: Archivo de texto con el keylog.
+- `clipboard.txt`: Archivo de texto con el contenido del portapapeles.
+- `photo.jpg`: Foto tomada con la cámara.
+- `screenshots/`: Carpeta con los screenshots capturados.
+- `audios/`: Carpeta con los archivos de audio capturados.
+
+## Notas
+- Asegúrate de que la cámara y el micrófono estén conectados y funcionen correctamente antes de ejecutar el programa.
+- Si la cámara o el micrófono no están disponibles, el programa continuará funcionando sin capturar fotos o audio, respectivamente.
+- No se pedirán permisos adicionales para usar la cámara o el micrófono si se han ajustado los permisos de privacidad de Windows como se indica a continuación.
+
+## Ajustes de Privacidad de Windows
+Para evitar que el programa pida permisos para usar la cámara o el micrófono, sigue estos pasos:
+1. Abre la Configuración de Windows (Win + I).
+2. Ve a "Privacidad y seguridad".
+3. Selecciona "Micrófono" y desactiva "Permitir que las aplicaciones accedan al micrófono".
+4. Selecciona "Cámara" y desactiva "Permitir que las aplicaciones accedan a la cámara".
+5. Reinicia el equipo.
+
+---
+
+**Nota: Este software se crea con fines educativos y con la exclusiva intención de aprendizaje, aunque su uso pueda extenderse más allá de estos propósitos mi objetivo no es el uso del programa si no el entendimiento de la estructura del mismo.**
+
